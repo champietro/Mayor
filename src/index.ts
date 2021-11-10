@@ -33,7 +33,7 @@ let aleatorio = function (menorValor, mayorValor: number) {
     if (edades[i] < 21) {
       menores21 = menores21 + 1;
     } else {
-      mayorIgual = mayorIgual3 + 1;
+      mayorIgual = mayorIgual + 1;
     }
   }
   console.log("Personas que son menores de 21 años: " + menores21);
